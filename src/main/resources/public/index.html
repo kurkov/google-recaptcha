@@ -39,6 +39,9 @@
                            required
                            ng-model="auth.password">
                 </div>
+                <recaptcha sitekey="6Lc4dicUAAAAAAZ4_cAjfy3Y4Rb2d6cn0aOgFEyT"
+                           ng-model="auth.recaptchaResponse">
+                </recaptcha>
                 <button type="submit" class="btn btn-default" style="..." ng-disabled="form.$invalid">
                     Submit
                 </button>

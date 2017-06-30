@@ -1,4 +1,4 @@
-package com.github.kurkov.recaptcha.dto;
+package com.github.kurkov.recaptcha.dtos;
 
 import lombok.Data;
 
@@ -9,4 +9,5 @@ import lombok.Data;
 public class RegisterDto {
     private String email;
     private String password;
+    private String recaptchaResponse;
 }

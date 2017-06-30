@@ -1,6 +1,6 @@
 package com.github.kurkov.recaptcha.controllers;
 
-import com.github.kurkov.recaptcha.dto.RegisterDto;
+import com.github.kurkov.recaptcha.dtos.RegisterDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
